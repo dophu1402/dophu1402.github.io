@@ -1,0 +1,74 @@
+@font-face {
+  font-family: logo;
+  src: url(Fonts/Designosaur-Regular.ttf);
+}
+
+.container {
+	width: 100%;
+	height: 1050px;
+	/*background-color: #c7c7c7;*/
+	top: 0px;
+	left: 0px;
+	background-color: red;
+	position: absolute;
+}
+
+.page_content{
+	margin: 10px auto;
+	width: 980px;
+	height: 100%;
+	background-color: yellow;
+	display: block;
+}
+
+.header{
+	width: 100%;
+	height: auto;
+}
+
+#head_content{
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+}
+
+#head_line {
+	margin: auto;
+	line-height: 30px;
+}
+
+#head_line>p{
+	display: inline-block;
+	vertical-align: middle;
+	margin: auto;
+}
+#logo {
+	font-family: logo;
+	font-size: 25px;
+	color: #cd2027;
+}
+
+
+#logo:before {
+    content: "";
+    background: url("./Images/icon.png") no-repeat;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+#slogan {
+	display: inline;
+	margin-left: 25px!important;
+	font-size: 12px;
+	font-family: Arial;
+	color: #bebebe;
+}
+
+#contact {
+	float: right;
+	font-family: logo;
+	font-size: 16px;
+	color: #cd2027;
+	text-align: right;
+	
+}
