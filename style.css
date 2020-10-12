@@ -1,24 +1,32 @@
 @font-face {
-  font-family: logo;
+  font-family: arialmt;
+  src: url(Fonts/ARI.ttf);
+}
+
+@font-face {
+  font-family: Designosaur;
   src: url(Fonts/Designosaur-Regular.ttf);
 }
 
-.container {
-	width: 100%;
-	height: 1050px;
+
+
+.page_container {
 	/*background-color: #c7c7c7;*/
+	width: 100%;
 	top: 0px;
 	left: 0px;
 	background-color: red;
 	position: absolute;
+
 }
 
 .page_content{
 	margin: 10px auto;
-	width: 980px;
-	height: 100%;
+	width: 60%;
+	height: 1050px;
 	background-color: yellow;
 	display: block;
+	min-width: 440px;
 }
 
 .header{
@@ -27,6 +35,8 @@
 }
 
 #head_content{
+	width: 100%;
+	display: inline-block;
 	background-color: white;
 	padding: 20px 20px 20px 20px;
 }
@@ -42,9 +52,10 @@
 	margin: auto;
 }
 #logo {
-	font-family: logo;
+	font-family: Designosaur;
 	font-size: 25px;
 	color: #cd2027;
+	float: left;
 }
 
 
@@ -57,18 +68,89 @@
 }
 
 #slogan {
+	float: left;
 	display: inline;
 	margin-left: 25px!important;
 	font-size: 12px;
-	font-family: Arial;
+	font-family: arialmt;
 	color: #bebebe;
 }
 
 #contact {
 	float: right;
-	font-family: logo;
+	font-family: Designosaur;
 	font-size: 16px;
 	color: #cd2027;
 	text-align: right;
 	
 }
+
+.intro {
+	margin-top: 7px;
+	padding: 40px;
+	width: 100%;
+	background-color: gray;
+	display: inline-block;
+}
+
+.intro_text {
+	float: left;
+	background-color: white;
+	width: 50%;
+	min-width: 350px;
+	margin: 0 auto;
+
+}
+
+.intro_text>h1{
+	font-family: Designosaur;
+	font-size: 32px;
+	padding-right: 40px;
+}
+
+.intro_text>p{
+	font-size: 12px;
+	font-family: arialmt;
+	padding-right: 40px;
+}
+
+.carousel_container {
+	margin: 0 auto;
+	float: left;
+	background-color: green;
+	width: 50%;
+	min-width: 350px;
+}
+
+#intro_button1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
+
+#intro_button2 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+}
+
+
+.button {
+	border-radius: 25px;
+	display: inline-block;
+	padding: 0px 28px 0px 28px;;
+	line-height:39px;
+	font-size: 18px;
+	font-family: designosaur;
+	text-align: center;
+	color: #ca4500;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+	border: 5px solid #f3f7f8;
+}
+
+.button_orange {
+	background-color: #ff6000;
+	background-image: linear-gradient(to top, rgba(240, 76, 0, 1) 0%, rgba(230, 184, 0, 0.6) 100%);
+}
+
+
