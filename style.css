@@ -17,7 +17,7 @@
 	left: 0px;
 	background-color: red;
 	position: absolute;
-	min-width: 440px;
+	min-width: 400px;
 }
 
 .page_content{
@@ -26,7 +26,7 @@
 	height: 1050px;
 	background-color: yellow;
 	display: block;
-	min-width: 440px;
+	min-width: 400px;
 }
 
 .header{
@@ -97,7 +97,7 @@
 	float: left;
 	background-color: white;
 	width: 50%;
-	min-width: 350px;
+	min-width: 310px;
 	margin: 0 auto;
 
 }
@@ -119,18 +119,18 @@
 	float: left;
 	background-color: green;
 	width: 50%;
-	min-width: 350px;
+	min-width: 310px;
 }
 
 #intro_button1 {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	margin-right: 10px;
 }
 
 #intro_button2 {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	margin-left: 10px;
 }
 
