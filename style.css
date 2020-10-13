@@ -13,13 +13,12 @@
 .page_container {
 	/*background-color: #c7c7c7;*/
 	width: 100%;
-	height: 2000px;
 	top: 0px;
 	left: 0px;
-	background-color: red;
+	background-color: #e0e0e0;
 	position: absolute;
 	min-width: 400px;
-	
+	position: absolute;
 }
 
 .page_content{
@@ -355,7 +354,7 @@ li:before {
 
 .logo_black {
 	font-family: Designosaur;
-	font-size: 25px;
+	font-size: 25px!important;
 	color: #8c8c8c;
 	float: left;
 }
@@ -367,4 +366,16 @@ li:before {
     width: 30px;
     height: 30px;
     float: left;
+	margin-right: 5px;
+}
+
+.endline {
+	padding: 15px;
+	width: 105%;
+	background-color: #222222;
+	position: relative;
+	color: #8c8c8c;
+	left: 0px;
+	bottom: -4px;
+	right: -2px;
 }
