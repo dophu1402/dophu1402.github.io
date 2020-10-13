@@ -245,3 +245,7 @@ ol, li {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+#logo_black {
+	text-align: right;
+}

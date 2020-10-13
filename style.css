@@ -13,17 +13,19 @@
 .page_container {
 	/*background-color: #c7c7c7;*/
 	width: 100%;
+	height: 2000px;
 	top: 0px;
 	left: 0px;
 	background-color: red;
 	position: absolute;
 	min-width: 400px;
+	
 }
 
 .page_content{
 	margin: 10px auto;
 	width: 70%;
-	height: 1050px;
+	height: 100%;
 	background-color: #fcfcfc;
 	display: block;
 	min-width: 400px;
@@ -137,6 +139,12 @@
 	text-decoration: none;
 }
 
+#or {
+	font-family: designosaur;
+	font-size: 16px;
+	bottom: -20px;
+	position: relative;
+}
 
 .button {
 	border-radius: 25px;
@@ -148,7 +156,7 @@
 	text-align: center;
 	color: #ca4500;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
-	border: 5px solid #f3f7f8;
+	border: 5px solid #eff3f5;
 }
 
 .button_orange {
@@ -161,7 +169,8 @@
 }
 
 .container {
-	border-top:1px solid #bebebe;
+	display: inline-block;
+	border-top: 1px solid #bebebe;
 }
 
 .row {
@@ -180,7 +189,7 @@
 	font-family: arialmt;
 }
 
-.col>img {
+.col-md>img {
 	display: inline-block;
 	margin-right: 20px;
 	margin-top: 5px;
@@ -204,12 +213,12 @@
 	color: #8c8c8c;
 }
 
-.row>span{
-	display: block;
+.headline {
 	font-family: designosaur;
 	font-size: 16px;
-	bottom: -20px;
-	position: relative;
+	width: 100%;
+	margin-left: 15px;
+	padding-bottom: 10px;
 }
 
 .col1{
@@ -250,14 +259,112 @@ li:before {
 }
 
 .col_img{
-	min-width: 310px;
-	float: left;
-	width: 25%;
-	background-color: blue;
+	width: 100%;
 }
 
-.screenshot {
-	content: url("./Images/ApertureScience.jpg")
-	background-repeat: no-repeat;
+.screenshot{
+	content: url("./Images/ApertureScience.jpg");
 	background-size: cover;
+	padding: 0px!important;
+	outline: 5px solid #eff3f5;
+	display: inline-block;
+	width:100%;
+}
+
+.quote {
+	font-family: arialmt;
+	font-size: 18px;
+	color: #8c8c8c;
+	border: 1px solid #8c8c8c;
+	padding: 40px;
+	margin: 0px 15px 0px 15px;
+	text-align: center;
+}
+
+#mike_tyson{
+	font-family: designosaur;
+	bottom: -10px;
+	color: #8c8c8c;
+	left: 25px;
+	width: 200px;
+	position: relative;
+	display: inline-block;
+}
+
+#Microsoft{
+	opacity: 0.5;
+}
+
+.triangle {
+	padding-left: 30px;
+	width: 20px;
+	height: 20px;
+	border-style: dashed;
+	border-width: 0 20px 20px 0;
+	border-color: transparent #8c8c8c transparent transparent;
+	display: inline-block;
+	position: relative;
+}
+
+.upper {
+	width: 18px;
+	height: 18px;
+	left: -1px;
+	bottom: 2px;
+	border-style: dashed;
+	border-width: 0 20px 20px 0;
+	border-color: transparent white transparent transparent;
+	display: inline-block;
+	position: relative;
+}
+
+.end_button {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+.end_button_inner {
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+}
+
+.end_button_inner>span {
+	bottom: 0px!important;
+}
+
+.footer {
+	background: black;
+	height: 100px;
+}
+#foot {
+	background: black;
+	padding: 5px!important;
+}
+
+.foot_col {
+	color: #cecece;
+	font-family: designosaur;
+	font-size: 16px;
+}
+
+.foot_space{
+	padding-right: 20px;
+}
+
+.logo_black {
+	font-family: Designosaur;
+	font-size: 25px;
+	color: #8c8c8c;
+	float: left;
+}
+
+
+.logo_black:before {
+    content: "";
+    background: url("./Images/logo_black.png") no-repeat;
+    width: 30px;
+    height: 30px;
+    float: left;
 }
