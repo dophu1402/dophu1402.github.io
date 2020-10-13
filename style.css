@@ -22,7 +22,7 @@
 
 .page_content{
 	margin: 10px auto;
-	width: 60%;
+	width: 70%;
 	height: 1050px;
 	background-color: yellow;
 	display: block;
@@ -99,24 +99,25 @@
 	width: 50%;
 	min-width: 310px;
 	margin: 0 auto;
-
 }
+
 
 .intro_text>h1{
 	font-family: Designosaur;
 	font-size: 32px;
-	padding-right: 40px;
+	padding-right: 20px;
 }
 
 .intro_text>p{
 	font-size: 12px;
 	font-family: arialmt;
-	padding-right: 40px;
+	padding-right: 20px;
+	margin-bottom: 30px;
 }
 
 .carousel_container {
-	margin: 0 auto;
 	float: left;
+	margin: 0 auto;
 	background-color: green;
 	width: 50%;
 	min-width: 310px;
@@ -126,12 +127,14 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-right: 10px;
+	text-decoration: none;
 }
 
 #intro_button2 {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left: 10px;
+	text-decoration: none;
 }
 
 
@@ -155,5 +158,51 @@
 .button_grey {
 	background-color: #e0e0e0;
 	background-image: linear-gradient(to top, rgba(224, 224, 224, 1) 0%, rgba(255, 255, 255, 0.6) 100%);
+}
+
+.container {
+	height: 1500px;
+	width: 100%!important;
+	background-color: brown;
+}
+
+.row {
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	padding: 40px;
+	display: inline-block;
+}
+
+.row .col-sm{
+	min-width: 310px;
+	float: left;
+	width: 33%;
+	font-family: arialmt;
+}
+
+.col-sm>img {
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 5px;
+	opacity: 0.5;
+}
+.content_col{
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.content_title {
+	padding-bottom: 20px! important;
+	margin: 0;
+	font-size: 16px;
+	font-family: Designosaur!important;
+}
+
+.pa{
+	font-size: 12px;
+	color: #8c8c8c;
 }
 

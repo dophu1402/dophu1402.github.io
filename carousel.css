@@ -112,13 +112,8 @@ ol, li {
 }
 
 .carousel__slide:before {
-  content: counter(item);
   position: absolute;
-  top: 50%;
-  left: 50%;
   transform: translate3d(-50%,-40%,70px);
-  color: #fff;
-  font-size: 2em;
 }
 
 .carousel__snapper {
@@ -230,3 +225,13 @@ ol, li {
 #carousel__slide1{
 	background-image: url("./Images/icon.png");
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+#carousel__slide2{
+	background-image: url("./Images/sc2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
