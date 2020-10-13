@@ -335,6 +335,7 @@ li:before {
 .footer {
 	background: black;
 	display: inline-block;
+	padding-top: 15px;
 }
 .foot {
 	background: black;
