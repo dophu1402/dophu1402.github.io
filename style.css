@@ -18,7 +18,6 @@
 	background-color: #e0e0e0;
 	position: absolute;
 	min-width: 400px;
-	position: absolute;
 }
 
 .page_content{
@@ -335,9 +334,9 @@ li:before {
 
 .footer {
 	background: black;
-	height: 100px;
+	display: inline-block;
 }
-#foot {
+.foot {
 	background: black;
 	padding: 5px!important;
 }
@@ -369,13 +368,33 @@ li:before {
 	margin-right: 5px;
 }
 
+.im1{
+	padding-left: 15px;
+	content: url("./Images/mastercard.png");
+}
+.im2{
+	padding-left: 5px;
+	content: url("./Images/visa.png");
+}
+.im3{
+	padding-left: 5px;
+	content: url("./Images/paypal.png");
+}
+
 .endline {
-	padding: 15px;
-	width: 105%;
+	font-size: 12px;
+	float: left;
+	padding: 0 15px 0 15px;
+	width: 100%;
 	background-color: #222222;
 	position: relative;
 	color: #8c8c8c;
-	left: 0px;
-	bottom: -4px;
-	right: -2px;
+	display: inline-block;
+	position: relative;
+	top: -6px;
+}
+
+.endline .row {
+	background-color: #222222;
+	padding: 15px;
 }
