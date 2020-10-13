@@ -5,7 +5,8 @@
 		<link rel="stylesheet" type="text/css" href="./style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="./carousel.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 	</head>
 	<body>
 		<div class="page_container">
@@ -27,33 +28,34 @@
 						</div>
 					</div>
 				</div>
-				<div class="intro">
-					<div class="intro_text">
+				<div class="container">
+					<div class="row">
+					<div class="col-md-6">
 						<h1>The perfect way to convert your traffic into sales</h1>
 						<p>
 							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 							<br><br>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. 
 						</p>
-						
-						<a class="button button_orange" id="intro_button1" href="">
-							Purchase now!
-						</a>
-						<span>
-							or
-						</span>
-						<a class="button button_grey" id="intro_button2" href="">
-							Take a tour
-						</a>
-	
+						<div class="row">
+							<a class="button button_orange" id="intro_button1" href="">
+								Purchase now!
+							</a>
+							<span>
+								or
+							</span>
+							<a class="button button_grey" id="intro_button2" href="">
+								Take a tour
+							</a>
+						</div>
 					</div>
-					<div class="carousel_container">
+					<div class="col-md-6">
 						<section class="carousel" aria-label="Gallery">
 						  <ol class="carousel__viewport">
 							<li id="carousel__slide1"
 								tabindex="0"
 								class="carousel__slide">
 							  <div class="carousel__snapper">
-								<a href="#carousel__slide4"
+								<a href="#carousel__slide5"
 								   class="carousel__prev">Go to last slide</a>
 								<a href="#carousel__slide2"
 								   class="carousel__next">Go to next slide</a>
@@ -74,10 +76,10 @@
 							  <div class="carousel__snapper"></div>
 							  <a href="#carousel__slide2"
 								 class="carousel__prev">Go to previous slide</a>
-							  <a href="#carousel__slide4"
+							  <a href="#carousel__slide5"
 								 class="carousel__next">Go to next slide</a>
 							</li>
-							<li id="carousel__slide4"
+							<li id="carousel__slide5"
 								tabindex="0"
 								class="carousel__slide">
 							  <div class="carousel__snapper"></div>
@@ -109,13 +111,13 @@
 						  </aside-->
 						</section>
 					</div>
-				</div>		
-			
+				</div>	
+				</div>
+			<!-- column-->
 				<div class="container">
 					<div class="row">
-						<div class="col1 col-sm">
+						<div class="col-md">
 							<img src="./Images/flat1.png">
-							</img>
 							<div class="content_col">
 								<span class="content_title">Quick and easy</span>
 								<p class="pa">
@@ -123,9 +125,8 @@
 								</p>
 							</div>
 						</div>
-						<div class="col2 col-sm">
+						<div class="col-md">
 							<img src="./Images/flat2.png">
-							</img>
 							<div class="content_col">
 								<span class="content_title">Quick and easy</span>
 								<p class="pa">
@@ -133,18 +134,63 @@
 								</p>
 							</div>
 						</div>
-					<div class="col3 col-sm">
-						<img src="./Images/flat3.png">
-							</img>
+						<div class="col-md">
+							<img src="./Images/flat3.png">
 							<div class="content_col">
 								<span class="content_title">Quick and easy</span>
 								<p class="pa">
 									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 								</p>
 							</div>
+						</div>
 					</div>
-				  </div>
 				</div>
+							<!-- end column-->
+							<!-- feature...-->
+									<span>Check out the features</span>
+				<div class="container">
+					<div class="row">
+				
+						<div class="col-md-7">
+							<div class="pa">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+								Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. 
+								Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. 
+								Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay. 
+								Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin, sodium glutimate.
+							</div>
+						</div>
+						<div class="col-md-5">
+							<ul class="list">
+								<li>Coffee</li>
+								<li>Tea</li>
+								<li>Coca Cola</li>
+								<li id="last_li">Coca Cola</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+							<!-- end feature...-->
+							<!-- screen shot ..-->
+				<div class="container screenshot">
+					<div class="row">
+						<span>The screenshots</span>
+						<div class="col_img col-sm">
+							<img class="screenshot">
+						</div>
+						<div class="col_img col-sm">
+							<img class="screenshot">
+						</div>
+						<div class="col_img col-sm">
+							<img class="screenshot">
+						</div>
+						<div class="col_img col-sm">
+							<img class="screenshot">
+						</div>
+						
+					</div>
+				</div>
+							<!-- end screen shot ..-->
 			</div>
 		</div>
 	</body>

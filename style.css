@@ -24,7 +24,7 @@
 	margin: 10px auto;
 	width: 70%;
 	height: 1050px;
-	background-color: yellow;
+	background-color: #fcfcfc;
 	display: block;
 	min-width: 400px;
 }
@@ -95,7 +95,7 @@
 
 .intro_text {
 	float: left;
-	background-color: white;
+	background-color: #fcfcfc;
 	width: 50%;
 	min-width: 310px;
 	margin: 0 auto;
@@ -161,32 +161,30 @@
 }
 
 .container {
-	height: 1500px;
-	width: 100%!important;
-	background-color: brown;
+	border-top:1px solid #bebebe;
 }
 
 .row {
 	float: left;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: white;
+	background-color: #fcfcfc;
 	padding: 40px;
 	display: inline-block;
 }
 
-.row .col-sm{
-	min-width: 310px;
+.row .col{
+	/*min-width: 310px;
 	float: left;
-	width: 33%;
+	width: 33%;*/
 	font-family: arialmt;
 }
 
-.col-sm>img {
+.col>img {
 	display: inline-block;
 	margin-right: 20px;
 	margin-top: 5px;
-	opacity: 0.5;
+	opacity: 0.2;
 }
 .content_col{
 	width: 70%;
@@ -206,3 +204,60 @@
 	color: #8c8c8c;
 }
 
+.row>span{
+	display: block;
+	font-family: designosaur;
+	font-size: 16px;
+	bottom: -20px;
+	position: relative;
+}
+
+.col1{
+	min-width: 310px;
+	float: left;
+	width: 60%;
+	font-family: arialmt;
+	
+}
+
+.col2{
+	min-width: 310px;
+	float: left;
+	width: 40%;
+	font-family: arialmt;
+}
+
+.list {
+	padding-left: 40px;
+}
+
+li {
+	border-bottom: 2px solid rgba(215, 215, 215, 0.3);
+	font-family: designosaur;
+	font-size: 12px;
+	color: #dd8c5c;
+}
+
+#last_li{
+	border-bottom: none!important;
+}
+
+li:before {
+	content: url("./Images/bullet.png");
+	bottom: -3px;
+	position: relative;
+	margin-right: 5px;
+}
+
+.col_img{
+	min-width: 310px;
+	float: left;
+	width: 25%;
+	background-color: blue;
+}
+
+.screenshot {
+	content: url("./Images/ApertureScience.jpg")
+	background-repeat: no-repeat;
+	background-size: cover;
+}

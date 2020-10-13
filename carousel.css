@@ -181,8 +181,8 @@ ol, li {
   position: absolute;
   top: 0;
   margin-top: 37.5%;
-  width: 4rem;
-  height: 4rem;
+  width: 2rem;
+  height: 2rem;
   transform: translateY(-50%);
   border-radius: 50%;
   font-size: 0;
@@ -191,12 +191,12 @@ ol, li {
 
 .carousel::before,
 .carousel__prev {
-  left: -1rem;
+  left: 1rem;
 }
 
 .carousel::after,
 .carousel__next {
-  right: -1rem;
+  right: 1rem;
 }
 
 .carousel::before,
@@ -204,7 +204,7 @@ ol, li {
   content: '';
   z-index: 1;
   background-color: #333;
-  background-size: 1.5rem 1.5rem;
+  background-size: 1rem 1rem;
   background-repeat: no-repeat;
   background-position: center center;
   color: #fff;
@@ -223,15 +223,25 @@ ol, li {
 }
 
 #carousel__slide1{
-	background-image: url("./Images/icon.png");
+	background-image: url("./Images/Dota2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
-	
 }
 
 #carousel__slide2{
 	background-image: url("./Images/sc2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#carousel__slide3{
+	background-image: url("./Images/Jaina.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#carousel__slide5{
+	background-image: url("./Images/ApertureScience.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
